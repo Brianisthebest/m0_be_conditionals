@@ -109,6 +109,9 @@ puts loves_to_play && loves_dog_park
 puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-puts loves_to_play && age
+puts loves_to_play && age 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER: 1. age isn't a logical operator so it wasn't checking a true or false statement it printed age which is 1.
+# Edit: A 1 year old dog is a puppy, so I could also run this as:
+puts loves_to_play && age < 2
+# Dogs are puppies until their 24 months old, this should print out true since both statements are true.
